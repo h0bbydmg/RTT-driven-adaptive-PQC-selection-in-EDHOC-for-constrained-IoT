@@ -1,0 +1,27 @@
+networks:
+  edhoc-net:
+    driver: bridge
+
+services:
+  responder:
+    build: .
+    container_name: edhoc-responder
+    networks:
+      - edhoc-net
+    command: python responder/responder.py
+    cap_add:
+      - NET_ADMIN
+
+  initiator:
+    build: .
+    container_name: edhoc-initiator
+    networks:
+      - edhoc-net
+    environment:
+      - RESPONDER_HOST=edhoc-responder
+    command: >
+      sh -c "sleep 3 && python sweep/sweep.py"
+    cap_add:
+      - NET_ADMIN
+    depends_on:
+      - responder
