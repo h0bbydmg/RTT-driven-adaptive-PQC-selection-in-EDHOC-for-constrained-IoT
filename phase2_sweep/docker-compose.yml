@@ -1,0 +1,35 @@
+version: "3.9"
+
+networks:
+  edhoc-net:
+    driver: bridge
+
+services:
+  responder:
+    build: .
+    container_name: edhoc-responder
+    networks:
+      - edhoc-net
+    environment:
+      - ROLE=responder
+    command: python responder/responder.py
+    cap_add:
+      - NET_ADMIN
+
+  initiator:
+    build: .
+    container_name: edhoc-initiator
+    networks:
+      - edhoc-net
+    environment:
+      - ROLE=initiator
+      - RESPONDER_HOST=edhoc-responder
+    command: >
+      sh -c "sleep 3 && python sweep/sweep.py"
+    cap_add:
+      - NET_ADMIN
+    depends_on:
+      - responder
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./results:/app/results

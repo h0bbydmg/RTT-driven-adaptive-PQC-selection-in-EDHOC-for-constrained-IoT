@@ -1,0 +1,1132 @@
+time="2026-04-28T13:22:24+05:30" level=warning msg="/Users/reshma/Documents/Coding/pqc-edhoc/phase2_sweep/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Network phase2_sweep_edhoc-net Creating 
+ Network phase2_sweep_edhoc-net Created 
+ Container edhoc-responder Creating 
+ Container edhoc-responder Created 
+ Container edhoc-initiator Creating 
+ Container edhoc-initiator Created 
+Attaching to edhoc-initiator, edhoc-responder
+ Container edhoc-responder Starting 
+ Container edhoc-responder Started 
+ Container edhoc-initiator Starting 
+edhoc-responder  | 2026-04-28 07:52:27,135 [RESPONDER] EDHOC Phase 2 Agile Responder listening on CoAP udp://0.0.0.0:5683
+ Container edhoc-initiator Started 
+edhoc-initiator  | 2026-04-28 07:52:30,364 [SWEEP-P2] Phase 2 Sweep v4 | 100 handshakes
+edhoc-initiator  | 2026-04-28 07:52:30,364 [SWEEP-P2] Advertised KEMs: ['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256']
+edhoc-initiator  | 2026-04-28 07:52:35,443 [SWEEP-P2] netem: loss=0% latency=10ms
+edhoc-initiator  | 2026-04-28 07:52:38,479 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:52:38,480 [SWEEP-P2] Condition: loss=0%  latency=10ms
+edhoc-initiator  | 2026-04-28 07:52:38,480 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:52:38,480 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:52:39,127 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:39,141 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:39,156 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:39,156 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.9ms)
+edhoc-responder  | 2026-04-28 07:52:39,179 [RESPONDER] Encapsulate | ct=1088B | SS=7338f37a05199cbb…
+edhoc-responder  | 2026-04-28 07:52:39,179 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:39,242 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=85.91ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:39,243 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=18.9ms | 146ms
+edhoc-initiator  | 2026-04-28 07:52:40,747 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:52:41,382 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:41,397 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:41,409 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=19.1ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:41,410 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=19.1ms)
+edhoc-responder  | 2026-04-28 07:52:41,432 [RESPONDER] Encapsulate | ct=1088B | SS=dbaac38f963378d7…
+edhoc-responder  | 2026-04-28 07:52:41,432 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:41,493 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=83.58ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:41,494 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=19.1ms | 146ms
+edhoc-initiator  | 2026-04-28 07:52:42,996 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:52:43,610 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:43,627 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:43,641 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:43,641 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.6ms)
+edhoc-responder  | 2026-04-28 07:52:43,671 [RESPONDER] Encapsulate | ct=1088B | SS=909b27057880d9b2…
+edhoc-responder  | 2026-04-28 07:52:43,671 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:43,736 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=95.50ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:43,738 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=16.6ms | 157ms
+edhoc-initiator  | 2026-04-28 07:52:45,241 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:52:45,860 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:45,870 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:45,889 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=15.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:45,889 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=15.5ms)
+edhoc-responder  | 2026-04-28 07:52:45,913 [RESPONDER] Encapsulate | ct=1088B | SS=d3d9c61be0b751d2…
+edhoc-responder  | 2026-04-28 07:52:45,913 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:45,963 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=74.06ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:45,964 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=15.5ms | 137ms
+edhoc-initiator  | 2026-04-28 07:52:47,468 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:52:48,076 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:48,089 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:48,106 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=14.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:48,106 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=14.9ms)
+edhoc-responder  | 2026-04-28 07:52:48,129 [RESPONDER] Encapsulate | ct=1088B | SS=59c5194a1e5dcf58…
+edhoc-responder  | 2026-04-28 07:52:48,129 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:48,192 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=85.62ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:48,193 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=14.9ms | 144ms
+edhoc-initiator  | 2026-04-28 07:52:49,696 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:52:51,730 [SWEEP-P2] netem: loss=5% latency=10ms
+edhoc-initiator  | 2026-04-28 07:52:54,734 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:52:54,735 [SWEEP-P2] Condition: loss=5%  latency=10ms
+edhoc-initiator  | 2026-04-28 07:52:54,735 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:52:54,735 [SWEEP-P2]   Run 1/5
+edhoc-initiator  | 2026-04-28 07:52:57,700 [SWEEP-P2] Retransmission, Message ID: 12413.
+edhoc-responder  | 2026-04-28 07:52:57,945 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:57,953 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:52:57,970 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=19.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:52:57,970 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=19.8ms)
+edhoc-responder  | 2026-04-28 07:52:57,996 [RESPONDER] Encapsulate | ct=1088B | SS=68350c41e5ce3972…
+edhoc-responder  | 2026-04-28 07:52:57,996 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:52:58,041 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=71.37ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:52:58,043 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=19.8ms | 178ms
+edhoc-initiator  | 2026-04-28 07:52:59,546 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:53:00,152 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:00,172 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:00,182 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=13.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:00,183 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=13.5ms)
+edhoc-responder  | 2026-04-28 07:53:00,206 [RESPONDER] Encapsulate | ct=1088B | SS=dde1e31e8863a8c8…
+edhoc-responder  | 2026-04-28 07:53:00,207 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:00,272 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=89.34ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:00,274 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=13.5ms | 155ms
+edhoc-initiator  | 2026-04-28 07:53:01,776 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:53:02,393 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:02,403 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:02,418 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=13.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:02,418 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=13.8ms)
+edhoc-responder  | 2026-04-28 07:53:02,441 [RESPONDER] Encapsulate | ct=1088B | SS=36537ed0150a8f6f…
+edhoc-responder  | 2026-04-28 07:53:02,441 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:02,505 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=87.47ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:02,506 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=13.8ms | 148ms
+edhoc-initiator  | 2026-04-28 07:53:04,009 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:53:04,636 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:04,645 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:04,663 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:04,663 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.2ms)
+edhoc-responder  | 2026-04-28 07:53:04,689 [RESPONDER] Encapsulate | ct=1088B | SS=4b59fa243dbc4bb8…
+edhoc-responder  | 2026-04-28 07:53:04,689 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:04,743 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=80.12ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:04,744 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=18.2ms | 141ms
+edhoc-initiator  | 2026-04-28 07:53:06,246 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:53:06,869 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:06,885 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:06,897 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:06,897 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.9ms)
+edhoc-responder  | 2026-04-28 07:53:06,922 [RESPONDER] Encapsulate | ct=1088B | SS=4069fe7ac675d4b9…
+edhoc-responder  | 2026-04-28 07:53:06,922 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:06,981 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=84.42ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:06,983 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=16.9ms | 145ms
+edhoc-initiator  | 2026-04-28 07:53:08,488 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:53:10,516 [SWEEP-P2] netem: loss=10% latency=10ms
+edhoc-initiator  | 2026-04-28 07:53:13,520 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:53:13,520 [SWEEP-P2] Condition: loss=10%  latency=10ms
+edhoc-initiator  | 2026-04-28 07:53:13,520 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:53:13,520 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:53:14,141 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:14,157 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:14,170 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:14,170 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.2ms)
+edhoc-responder  | 2026-04-28 07:53:14,195 [RESPONDER] Encapsulate | ct=1088B | SS=f8cdf8b498610618…
+edhoc-responder  | 2026-04-28 07:53:14,195 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:14,261 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=91.04ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:14,264 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=18.2ms | 152ms
+edhoc-initiator  | 2026-04-28 07:53:15,766 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:53:16,398 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:16,408 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:16,421 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:16,421 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.9ms)
+edhoc-responder  | 2026-04-28 07:53:16,444 [RESPONDER] Encapsulate | ct=1088B | SS=aa2d9728d599b82e…
+edhoc-responder  | 2026-04-28 07:53:16,445 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:53:19,243 [SWEEP-P2] Retransmission, Message ID: 12483.
+edhoc-responder  | 2026-04-28 07:53:19,302 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=2881.19ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:19,304 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=16.9ms | 2938ms
+edhoc-initiator  | 2026-04-28 07:53:20,807 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:53:21,442 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:21,458 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:21,467 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=17.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:21,468 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=17.5ms)
+edhoc-responder  | 2026-04-28 07:53:21,493 [RESPONDER] Encapsulate | ct=1088B | SS=ca31379a348b47df…
+edhoc-responder  | 2026-04-28 07:53:21,493 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:21,540 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=73.17ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:21,542 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=17.5ms | 137ms
+edhoc-initiator  | 2026-04-28 07:53:23,045 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:53:23,662 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:23,676 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:23,691 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:23,692 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.2ms)
+edhoc-responder  | 2026-04-28 07:53:23,714 [RESPONDER] Encapsulate | ct=1088B | SS=eab750da5b0bc6f9…
+edhoc-responder  | 2026-04-28 07:53:23,714 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:23,780 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=88.66ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:23,782 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=16.2ms | 149ms
+edhoc-initiator  | 2026-04-28 07:53:25,284 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:53:25,901 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:25,917 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:25,934 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:25,934 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.0ms)
+edhoc-responder  | 2026-04-28 07:53:25,958 [RESPONDER] Encapsulate | ct=1088B | SS=486106ea85c57d52…
+edhoc-responder  | 2026-04-28 07:53:25,958 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:26,027 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=93.06ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:26,029 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=16.0ms | 163ms
+edhoc-initiator  | 2026-04-28 07:53:27,532 [SWEEP-P2]   → clean=4 degraded=1 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:53:29,562 [SWEEP-P2] netem: loss=20% latency=10ms
+edhoc-initiator  | 2026-04-28 07:53:32,567 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:53:32,568 [SWEEP-P2] Condition: loss=20%  latency=10ms
+edhoc-initiator  | 2026-04-28 07:53:32,568 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:53:32,568 [SWEEP-P2]   Run 1/5
+edhoc-initiator  | 2026-04-28 07:53:35,263 [SWEEP-P2] Retransmission, Message ID: 12523.
+edhoc-responder  | 2026-04-28 07:53:35,404 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:53:38,161 [SWEEP-P2] Retransmission, Message ID: 12525.
+edhoc-responder  | 2026-04-28 07:53:38,172 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:38,182 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:38,182 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.6ms)
+edhoc-responder  | 2026-04-28 07:53:38,208 [RESPONDER] Encapsulate | ct=1088B | SS=818595d6cc45f041…
+edhoc-responder  | 2026-04-28 07:53:38,208 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:53:41,016 [SWEEP-P2] Retransmission, Message ID: 12528.
+edhoc-responder  | 2026-04-28 07:53:41,054 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=2871.95ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:41,056 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=16.6ms | 5680ms
+edhoc-initiator  | 2026-04-28 07:53:42,558 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:53:43,175 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:53:45,343 [SWEEP-P2] Retransmission, Message ID: 12536.
+edhoc-responder  | 2026-04-28 07:53:45,360 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:45,378 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=15.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:45,378 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=15.6ms)
+edhoc-responder  | 2026-04-28 07:53:45,403 [RESPONDER] Encapsulate | ct=1088B | SS=c285313ed4511a46…
+edhoc-responder  | 2026-04-28 07:53:45,403 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:45,462 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=83.76ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:45,463 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=15.6ms | 2318ms
+edhoc-initiator  | 2026-04-28 07:53:46,965 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 07:53:49,267 [SWEEP-P2] Retransmission, Message ID: 12542.
+edhoc-responder  | 2026-04-28 07:53:49,765 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:53:52,558 [SWEEP-P2] Retransmission, Message ID: 12547.
+edhoc-responder  | 2026-04-28 07:53:52,569 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:53:54,731 [SWEEP-P2] Retransmission, Message ID: 12548.
+edhoc-responder  | 2026-04-28 07:53:54,746 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:54,746 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.8ms)
+edhoc-responder  | 2026-04-28 07:53:54,769 [RESPONDER] Encapsulate | ct=1088B | SS=8903c02aaae29296…
+edhoc-responder  | 2026-04-28 07:53:54,769 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:53:57,299 [SWEEP-P2] Retransmission, Message ID: 12550.
+edhoc-responder  | 2026-04-28 07:53:57,343 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=2597.73ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:57,346 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=18.8ms | 7605ms
+edhoc-initiator  | 2026-04-28 07:53:58,848 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:53:59,484 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:59,499 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:53:59,519 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:53:59,519 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.2ms)
+edhoc-responder  | 2026-04-28 07:53:59,543 [RESPONDER] Encapsulate | ct=1088B | SS=39a042a7ad2309d3…
+edhoc-responder  | 2026-04-28 07:53:59,544 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:53:59,603 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=84.25ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:53:59,605 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=18.2ms | 157ms
+edhoc-initiator  | 2026-04-28 07:54:01,108 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 07:54:03,524 [SWEEP-P2] Retransmission, Message ID: 12566.
+edhoc-responder  | 2026-04-28 07:54:03,776 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:54:05,964 [SWEEP-P2] Retransmission, Message ID: 12569.
+edhoc-initiator  | 2026-04-28 07:54:10,337 [SWEEP-P2] Retransmission, Message ID: 12569.
+edhoc-responder  | 2026-04-28 07:54:10,355 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:54:10,370 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=19.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:54:10,371 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=19.0ms)
+edhoc-responder  | 2026-04-28 07:54:10,393 [RESPONDER] Encapsulate | ct=1088B | SS=c4d1f3baa6f61176…
+edhoc-responder  | 2026-04-28 07:54:10,393 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:54:13,249 [SWEEP-P2] Retransmission, Message ID: 12572.
+edhoc-initiator  | 2026-04-28 07:54:18,516 [SWEEP-P2] Retransmission, Message ID: 12572.
+edhoc-responder  | 2026-04-28 07:54:18,580 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=8208.76ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:54:18,584 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=19.0ms | 14833ms
+edhoc-initiator  | 2026-04-28 07:54:20,088 [SWEEP-P2]   → clean=1 degraded=4 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:54:22,133 [SWEEP-P2] netem: loss=30% latency=10ms
+edhoc-initiator  | 2026-04-28 07:54:25,137 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:54:25,137 [SWEEP-P2] Condition: loss=30%  latency=10ms
+edhoc-initiator  | 2026-04-28 07:54:25,137 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:54:25,137 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:54:25,773 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:54:28,528 [SWEEP-P2] Retransmission, Message ID: 12580.
+edhoc-responder  | 2026-04-28 07:54:28,539 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:54:28,549 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:54:28,550 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.8ms)
+edhoc-responder  | 2026-04-28 07:54:28,573 [RESPONDER] Encapsulate | ct=1088B | SS=de45bae52d1bca6d…
+edhoc-responder  | 2026-04-28 07:54:28,574 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:54:28,636 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=87.30ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:54:28,638 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=18.8ms | 2899ms
+edhoc-initiator  | 2026-04-28 07:54:30,141 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 07:54:32,270 [SWEEP-P2] Retransmission, Message ID: 12586.
+edhoc-initiator  | 2026-04-28 07:56:15,106 [SWEEP-P2] Retransmission, Message ID: 12589.
+edhoc-responder  | 2026-04-28 07:56:15,270 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:15,295 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:56:18,179 [SWEEP-P2] Retransmission, Message ID: 12592.
+edhoc-initiator  | 2026-04-28 07:56:23,939 [SWEEP-P2] Retransmission, Message ID: 12592.
+edhoc-responder  | 2026-04-28 07:56:23,954 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=46.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:23,955 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=46.9ms)
+edhoc-responder  | 2026-04-28 07:56:23,978 [RESPONDER] Encapsulate | ct=1088B | SS=e60466797e7ab66c…
+edhoc-responder  | 2026-04-28 07:56:23,979 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:56:26,033 [SWEEP-P2] Retransmission, Message ID: 12593.
+edhoc-initiator  | 2026-04-28 07:56:28,208 [SWEEP-P2] Retransmission, Message ID: 12595.
+edhoc-responder  | 2026-04-28 07:56:28,225 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=4270.62ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:28,229 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=46.9ms | 13008ms
+edhoc-initiator  | 2026-04-28 07:56:29,731 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 07:56:32,089 [SWEEP-P2] Retransmission, Message ID: 12597.
+edhoc-initiator  | 2026-04-28 07:56:34,708 [SWEEP-P2] Retransmission, Message ID: 12601.
+edhoc-responder  | 2026-04-28 07:56:34,717 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:34,726 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:34,738 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:34,738 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.9ms)
+edhoc-responder  | 2026-04-28 07:56:34,762 [RESPONDER] Encapsulate | ct=1088B | SS=2a7b42ef12a9cc02…
+edhoc-responder  | 2026-04-28 07:56:34,762 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:56:34,826 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=88.80ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:34,828 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=18.9ms | 2274ms
+edhoc-initiator  | 2026-04-28 07:56:36,331 [SWEEP-P2]   Run 4/5
+edhoc-initiator  | 2026-04-28 07:56:39,186 [SWEEP-P2] Retransmission, Message ID: 12609.
+edhoc-responder  | 2026-04-28 07:56:39,571 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:39,589 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:39,602 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=18.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:39,602 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=18.3ms)
+edhoc-responder  | 2026-04-28 07:56:39,625 [RESPONDER] Encapsulate | ct=1088B | SS=934f37df425fe66e…
+edhoc-responder  | 2026-04-28 07:56:39,625 [RESPONDER] MSG2 | payload=2306B
+edhoc-responder  | 2026-04-28 07:56:39,681 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=79.14ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:39,682 [SWEEP-P2]     ✓ | ML-KEM-768 [GOOD] | probe_rtt=18.3ms | 142ms
+edhoc-initiator  | 2026-04-28 07:56:41,185 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 07:56:43,741 [SWEEP-P2] Retransmission, Message ID: 12621.
+edhoc-responder  | 2026-04-28 07:56:44,000 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:44,010 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:44,020 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=16.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:44,020 [RESPONDER] Selected: ML-KEM-768 [GOOD] (RTT=16.5ms)
+edhoc-responder  | 2026-04-28 07:56:44,041 [RESPONDER] Encapsulate | ct=1088B | SS=0bceb42156cca92a…
+edhoc-responder  | 2026-04-28 07:56:44,041 [RESPONDER] MSG2 | payload=2306B
+edhoc-initiator  | 2026-04-28 07:56:46,373 [SWEEP-P2] Retransmission, Message ID: 12626.
+edhoc-responder  | 2026-04-28 07:56:46,432 [RESPONDER] MSG3 | KEM=ML-KEM-768 | condition=GOOD | handshake=2412.23ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:46,434 [SWEEP-P2]     ~ DEGRADED | ML-KEM-768 [GOOD] | probe_rtt=16.5ms | 2465ms
+edhoc-initiator  | 2026-04-28 07:56:47,937 [SWEEP-P2]   → clean=1 degraded=4 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:56:49,967 [SWEEP-P2] netem: loss=0% latency=50ms
+edhoc-initiator  | 2026-04-28 07:56:52,971 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:56:52,972 [SWEEP-P2] Condition: loss=0%  latency=50ms
+edhoc-initiator  | 2026-04-28 07:56:52,972 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:56:52,972 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:56:53,830 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:53,885 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:53,940 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=56.1ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:53,940 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=56.1ms)
+edhoc-responder  | 2026-04-28 07:56:53,955 [RESPONDER] Encapsulate | ct=768B | SS=bbbc99478aa045cb…
+edhoc-responder  | 2026-04-28 07:56:53,956 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:56:54,077 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=136.71ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:54,079 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=56.1ms | 316ms
+edhoc-initiator  | 2026-04-28 07:56:55,582 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:56:56,452 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:56,500 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:56,557 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=59.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:56,557 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=59.4ms)
+edhoc-responder  | 2026-04-28 07:56:56,571 [RESPONDER] Encapsulate | ct=768B | SS=af4ce5c3e744df0d…
+edhoc-responder  | 2026-04-28 07:56:56,571 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:56:56,695 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=138.63ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:56,697 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=59.4ms | 318ms
+edhoc-initiator  | 2026-04-28 07:56:58,199 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:56:59,053 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:59,107 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:56:59,162 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=54.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:56:59,163 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=54.5ms)
+edhoc-responder  | 2026-04-28 07:56:59,180 [RESPONDER] Encapsulate | ct=768B | SS=3d87952a75da47a3…
+edhoc-responder  | 2026-04-28 07:56:59,180 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:56:59,306 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=143.83ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:56:59,308 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=54.5ms | 329ms
+edhoc-initiator  | 2026-04-28 07:57:00,811 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:57:01,671 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:01,722 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:01,775 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:01,776 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.2ms)
+edhoc-responder  | 2026-04-28 07:57:01,793 [RESPONDER] Encapsulate | ct=768B | SS=7b0b4b820a1e4b8a…
+edhoc-responder  | 2026-04-28 07:57:01,793 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:01,920 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=144.89ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:01,922 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=57.2ms | 320ms
+edhoc-initiator  | 2026-04-28 07:57:03,425 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:57:04,287 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:04,347 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:04,402 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=56.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:04,403 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=56.9ms)
+edhoc-responder  | 2026-04-28 07:57:04,418 [RESPONDER] Encapsulate | ct=768B | SS=db1d0477b05ed4a1…
+edhoc-responder  | 2026-04-28 07:57:04,418 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:04,540 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=137.61ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:04,542 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=56.9ms | 326ms
+edhoc-initiator  | 2026-04-28 07:57:06,044 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:57:08,074 [SWEEP-P2] netem: loss=5% latency=50ms
+edhoc-initiator  | 2026-04-28 07:57:11,078 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:57:11,078 [SWEEP-P2] Condition: loss=5%  latency=50ms
+edhoc-initiator  | 2026-04-28 07:57:11,078 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:57:11,078 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:57:11,935 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:11,984 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:12,034 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:12,034 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.6ms)
+edhoc-responder  | 2026-04-28 07:57:12,050 [RESPONDER] Encapsulate | ct=768B | SS=73654672422e055c…
+edhoc-responder  | 2026-04-28 07:57:12,050 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:12,166 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=132.46ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:12,168 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=57.6ms | 299ms
+edhoc-initiator  | 2026-04-28 07:57:13,673 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:57:14,532 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:14,584 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:14,638 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=55.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:14,638 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=55.9ms)
+edhoc-responder  | 2026-04-28 07:57:14,654 [RESPONDER] Encapsulate | ct=768B | SS=11331e00e09ac4eb…
+edhoc-responder  | 2026-04-28 07:57:14,654 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:14,775 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=136.45ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:14,777 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=55.9ms | 315ms
+edhoc-initiator  | 2026-04-28 07:57:16,280 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:57:17,143 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:17,199 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:17,258 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=58.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:17,258 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=58.8ms)
+edhoc-responder  | 2026-04-28 07:57:17,277 [RESPONDER] Encapsulate | ct=768B | SS=e3b02612116cf11b…
+edhoc-responder  | 2026-04-28 07:57:17,277 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:17,402 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=144.00ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:17,403 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=58.8ms | 328ms
+edhoc-initiator  | 2026-04-28 07:57:18,906 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:57:19,753 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:19,802 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:19,857 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=52.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:19,857 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=52.9ms)
+edhoc-responder  | 2026-04-28 07:57:19,875 [RESPONDER] Encapsulate | ct=768B | SS=cab190fa7622cfc3…
+edhoc-responder  | 2026-04-28 07:57:19,875 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:19,987 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=129.91ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:19,989 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=52.9ms | 309ms
+edhoc-initiator  | 2026-04-28 07:57:21,492 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:57:22,351 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:22,402 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:22,451 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=55.7ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:22,451 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=55.7ms)
+edhoc-responder  | 2026-04-28 07:57:22,465 [RESPONDER] Encapsulate | ct=768B | SS=0c16ecf3324da95d…
+edhoc-responder  | 2026-04-28 07:57:22,465 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:22,584 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=133.47ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:22,586 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=55.7ms | 313ms
+edhoc-initiator  | 2026-04-28 07:57:24,089 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:57:26,113 [SWEEP-P2] netem: loss=10% latency=50ms
+edhoc-initiator  | 2026-04-28 07:57:29,117 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:57:29,117 [SWEEP-P2] Condition: loss=10%  latency=50ms
+edhoc-initiator  | 2026-04-28 07:57:29,117 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:57:29,117 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:57:30,083 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:30,142 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:30,196 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=79.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:30,197 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=79.4ms)
+edhoc-responder  | 2026-04-28 07:57:30,216 [RESPONDER] Encapsulate | ct=768B | SS=2df5ad85016002d9…
+edhoc-responder  | 2026-04-28 07:57:30,216 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:30,343 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=146.48ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:30,346 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=79.4ms | 342ms
+edhoc-initiator  | 2026-04-28 07:57:31,849 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 07:57:34,505 [SWEEP-P2] Retransmission, Message ID: 12740.
+edhoc-initiator  | 2026-04-28 07:57:39,481 [SWEEP-P2] Retransmission, Message ID: 12740.
+edhoc-responder  | 2026-04-28 07:57:40,240 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:40,289 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:40,345 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=61.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:40,345 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=61.5ms)
+edhoc-responder  | 2026-04-28 07:57:40,365 [RESPONDER] Encapsulate | ct=768B | SS=f0130eea62019649…
+edhoc-responder  | 2026-04-28 07:57:40,366 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:40,486 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=142.13ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:40,488 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=61.5ms | 328ms
+edhoc-initiator  | 2026-04-28 07:57:41,991 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:57:42,911 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:57:45,193 [SWEEP-P2] Retransmission, Message ID: 12755.
+edhoc-initiator  | 2026-04-28 07:57:49,752 [SWEEP-P2] Retransmission, Message ID: 12755.
+edhoc-responder  | 2026-04-28 07:57:49,804 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:49,862 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=59.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:49,862 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=59.8ms)
+edhoc-responder  | 2026-04-28 07:57:49,884 [RESPONDER] Encapsulate | ct=768B | SS=8d7f0d13f963e1ed…
+edhoc-responder  | 2026-04-28 07:57:49,884 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:50,007 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=144.89ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:50,008 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=59.8ms | 7173ms
+edhoc-initiator  | 2026-04-28 07:57:51,512 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:57:52,377 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:52,427 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:52,476 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:52,476 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.6ms)
+edhoc-responder  | 2026-04-28 07:57:52,491 [RESPONDER] Encapsulate | ct=768B | SS=18d0e316210fdbf6…
+edhoc-responder  | 2026-04-28 07:57:52,491 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:52,620 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=143.93ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:52,622 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=57.6ms | 315ms
+edhoc-initiator  | 2026-04-28 07:57:54,125 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 07:57:54,983 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:55,038 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:57:55,087 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.1ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:57:55,087 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.1ms)
+edhoc-responder  | 2026-04-28 07:57:55,102 [RESPONDER] Encapsulate | ct=768B | SS=7433f853dbbd5f92…
+edhoc-responder  | 2026-04-28 07:57:55,102 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:57:55,223 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=136.19ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:57:55,225 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=57.1ms | 311ms
+edhoc-initiator  | 2026-04-28 07:57:56,728 [SWEEP-P2]   → clean=4 degraded=1 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:57:58,765 [SWEEP-P2] netem: loss=20% latency=50ms
+edhoc-initiator  | 2026-04-28 07:58:01,770 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:58:01,770 [SWEEP-P2] Condition: loss=20%  latency=50ms
+edhoc-initiator  | 2026-04-28 07:58:01,770 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:58:01,770 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:58:02,640 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:02,691 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:02,750 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.7ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:02,750 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.7ms)
+edhoc-responder  | 2026-04-28 07:58:02,766 [RESPONDER] Encapsulate | ct=768B | SS=efdcd431e835097b…
+edhoc-responder  | 2026-04-28 07:58:02,766 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:02,895 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=145.42ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:02,898 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=57.7ms | 336ms
+edhoc-initiator  | 2026-04-28 07:58:04,401 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:58:05,254 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:05,306 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:05,360 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=54.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:05,361 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=54.4ms)
+edhoc-responder  | 2026-04-28 07:58:05,379 [RESPONDER] Encapsulate | ct=768B | SS=a9d7e79969f0190a…
+edhoc-responder  | 2026-04-28 07:58:05,379 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:05,502 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=142.00ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:05,504 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=54.4ms | 318ms
+edhoc-initiator  | 2026-04-28 07:58:07,007 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 07:58:09,411 [SWEEP-P2] Retransmission, Message ID: 12800.
+edhoc-initiator  | 2026-04-28 07:58:13,904 [SWEEP-P2] Retransmission, Message ID: 12800.
+edhoc-responder  | 2026-04-28 07:58:14,607 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:14,657 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:14,710 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=59.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:14,710 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=59.4ms)
+edhoc-responder  | 2026-04-28 07:58:14,728 [RESPONDER] Encapsulate | ct=768B | SS=bdf8505184185547…
+edhoc-responder  | 2026-04-28 07:58:14,728 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:14,852 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=142.40ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:14,854 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=59.4ms | 318ms
+edhoc-initiator  | 2026-04-28 07:58:16,357 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 07:58:17,231 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:17,286 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:17,338 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=59.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:17,339 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=59.4ms)
+edhoc-responder  | 2026-04-28 07:58:17,358 [RESPONDER] Encapsulate | ct=768B | SS=3038edf30e8bd3ce…
+edhoc-responder  | 2026-04-28 07:58:17,358 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:17,487 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=148.64ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:17,490 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=59.4ms | 331ms
+edhoc-initiator  | 2026-04-28 07:58:18,993 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 07:58:22,057 [SWEEP-P2] Retransmission, Message ID: 12824.
+edhoc-initiator  | 2026-04-28 07:58:26,559 [SWEEP-P2] Retransmission, Message ID: 12824.
+edhoc-responder  | 2026-04-28 07:58:26,610 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:26,660 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:58:29,186 [SWEEP-P2] Retransmission, Message ID: 12826.
+edhoc-responder  | 2026-04-28 07:58:29,235 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=55.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:29,235 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=55.4ms)
+edhoc-responder  | 2026-04-28 07:58:29,252 [RESPONDER] Encapsulate | ct=768B | SS=8f230e5723a9b8c4…
+edhoc-responder  | 2026-04-28 07:58:29,252 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:29,382 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=146.82ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:29,385 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=55.4ms | 9600ms
+edhoc-initiator  | 2026-04-28 07:58:30,888 [SWEEP-P2]   → clean=4 degraded=1 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:58:32,917 [SWEEP-P2] netem: loss=30% latency=50ms
+edhoc-initiator  | 2026-04-28 07:58:35,921 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:58:35,922 [SWEEP-P2] Condition: loss=30%  latency=50ms
+edhoc-initiator  | 2026-04-28 07:58:35,922 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:58:35,922 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:58:36,790 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:58:39,589 [SWEEP-P2] Retransmission, Message ID: 12835.
+edhoc-responder  | 2026-04-28 07:58:39,638 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:39,696 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=58.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:39,697 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=58.2ms)
+edhoc-responder  | 2026-04-28 07:58:39,714 [RESPONDER] Encapsulate | ct=768B | SS=d575ade75f11072b…
+edhoc-responder  | 2026-04-28 07:58:39,714 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:58:39,833 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=136.73ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:39,835 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=58.2ms | 3117ms
+edhoc-initiator  | 2026-04-28 07:58:41,339 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 07:58:44,126 [SWEEP-P2] Retransmission, Message ID: 12840.
+edhoc-initiator  | 2026-04-28 07:58:46,996 [SWEEP-P2] Retransmission, Message ID: 12842.
+edhoc-initiator  | 2026-04-28 07:58:49,391 [SWEEP-P2] Retransmission, Message ID: 12843.
+edhoc-responder  | 2026-04-28 07:58:49,617 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:49,672 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:49,725 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=2290.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:49,725 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=2290.6ms)
+edhoc-responder  | 2026-04-28 07:58:49,735 [RESPONDER] Encapsulate | ct=65B | SS=f5b105879cf64f6d…
+edhoc-responder  | 2026-04-28 07:58:49,735 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 07:58:49,796 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=71.71ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:58:49,799 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=2290.6ms | 252ms
+edhoc-initiator  | 2026-04-28 07:58:51,301 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 07:58:54,355 [SWEEP-P2] Retransmission, Message ID: 12850.
+edhoc-responder  | 2026-04-28 07:58:54,898 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:54,956 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:58:55,009 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=58.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:58:55,009 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=58.6ms)
+edhoc-responder  | 2026-04-28 07:58:55,024 [RESPONDER] Encapsulate | ct=768B | SS=0291472ba18d502c…
+edhoc-responder  | 2026-04-28 07:58:55,025 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 07:58:57,857 [SWEEP-P2] Retransmission, Message ID: 12856.
+edhoc-initiator  | 2026-04-28 07:59:03,517 [SWEEP-P2] Retransmission, Message ID: 12856.
+edhoc-initiator  | 2026-04-28 07:59:14,838 [SWEEP-P2] Retransmission, Message ID: 12856.
+edhoc-initiator  | 2026-04-28 07:59:17,079 [SWEEP-P2] Retransmission, Message ID: 12857.
+edhoc-responder  | 2026-04-28 07:59:17,260 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=22250.85ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:59:17,267 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=58.6ms | 22439ms
+edhoc-initiator  | 2026-04-28 07:59:18,771 [SWEEP-P2]   Run 4/5
+edhoc-initiator  | 2026-04-28 07:59:20,896 [SWEEP-P2] Retransmission, Message ID: 12858.
+edhoc-responder  | 2026-04-28 07:59:21,772 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:59:24,185 [SWEEP-P2] Retransmission, Message ID: 12864.
+edhoc-responder  | 2026-04-28 07:59:24,239 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:24,291 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=57.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:59:24,291 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=57.4ms)
+edhoc-responder  | 2026-04-28 07:59:24,309 [RESPONDER] Encapsulate | ct=768B | SS=fb33370488409f93…
+edhoc-responder  | 2026-04-28 07:59:24,309 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:59:24,438 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=147.17ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:59:24,440 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=57.4ms | 2749ms
+edhoc-initiator  | 2026-04-28 07:59:25,945 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 07:59:29,285 [SWEEP-P2] Retransmission, Message ID: 12871.
+edhoc-initiator  | 2026-04-28 07:59:35,026 [SWEEP-P2] Retransmission, Message ID: 12871.
+edhoc-responder  | 2026-04-28 07:59:35,405 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 07:59:37,945 [SWEEP-P2] Retransmission, Message ID: 12874.
+edhoc-initiator  | 2026-04-28 07:59:43,020 [SWEEP-P2] Retransmission, Message ID: 12874.
+edhoc-responder  | 2026-04-28 07:59:43,075 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:43,128 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=54.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:59:43,128 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=54.6ms)
+edhoc-responder  | 2026-04-28 07:59:43,142 [RESPONDER] Encapsulate | ct=768B | SS=b95f212d2e73a71e…
+edhoc-responder  | 2026-04-28 07:59:43,143 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 07:59:45,861 [SWEEP-P2] Retransmission, Message ID: 12876.
+edhoc-responder  | 2026-04-28 07:59:45,977 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=2848.93ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:59:45,979 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=54.6ms | 10646ms
+edhoc-initiator  | 2026-04-28 07:59:47,481 [SWEEP-P2]   → clean=1 degraded=4 failed=0 / 5
+edhoc-initiator  | 2026-04-28 07:59:49,514 [SWEEP-P2] netem: loss=0% latency=100ms
+edhoc-initiator  | 2026-04-28 07:59:52,518 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:59:52,518 [SWEEP-P2] Condition: loss=0%  latency=100ms
+edhoc-initiator  | 2026-04-28 07:59:52,518 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 07:59:52,518 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 07:59:53,683 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:53,792 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:53,898 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:59:53,898 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.9ms)
+edhoc-responder  | 2026-04-28 07:59:53,916 [RESPONDER] Encapsulate | ct=768B | SS=98db734730543d7d…
+edhoc-responder  | 2026-04-28 07:59:53,916 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:59:54,133 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=235.39ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:59:54,136 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=107.9ms | 571ms
+edhoc-initiator  | 2026-04-28 07:59:55,639 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 07:59:56,806 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:56,911 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 07:59:57,015 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 07:59:57,015 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.6ms)
+edhoc-responder  | 2026-04-28 07:59:57,029 [RESPONDER] Encapsulate | ct=768B | SS=cd5e5d8898cfaed4…
+edhoc-responder  | 2026-04-28 07:59:57,029 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 07:59:57,251 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=235.69ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 07:59:57,253 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=107.6ms | 567ms
+edhoc-initiator  | 2026-04-28 07:59:58,756 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 07:59:59,919 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:00,018 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:00,119 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:00,120 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.8ms)
+edhoc-responder  | 2026-04-28 08:00:00,135 [RESPONDER] Encapsulate | ct=768B | SS=d2cefae6a201305b…
+edhoc-responder  | 2026-04-28 08:00:00,135 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:00,355 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=235.75ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:00,358 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=107.8ms | 559ms
+edhoc-initiator  | 2026-04-28 08:00:01,862 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:00:03,037 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:03,144 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:03,249 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=110.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:03,249 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=110.3ms)
+edhoc-responder  | 2026-04-28 08:00:03,266 [RESPONDER] Encapsulate | ct=768B | SS=4c1d56400e496699…
+edhoc-responder  | 2026-04-28 08:00:03,266 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:03,492 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=243.94ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:03,495 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=110.3ms | 580ms
+edhoc-initiator  | 2026-04-28 08:00:04,998 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:00:06,147 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:06,252 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:06,362 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=105.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:06,362 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=105.0ms)
+edhoc-responder  | 2026-04-28 08:00:06,380 [RESPONDER] Encapsulate | ct=768B | SS=366c288f54274548…
+edhoc-responder  | 2026-04-28 08:00:06,380 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:06,604 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=242.61ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:06,606 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=105.0ms | 577ms
+edhoc-initiator  | 2026-04-28 08:00:08,109 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:00:10,142 [SWEEP-P2] netem: loss=5% latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:13,147 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:13,147 [SWEEP-P2] Condition: loss=5%  latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:13,147 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:13,147 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:00:14,313 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:14,422 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:14,531 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=108.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:14,531 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=108.3ms)
+edhoc-responder  | 2026-04-28 08:00:14,544 [RESPONDER] Encapsulate | ct=768B | SS=24d049b24391efc2…
+edhoc-responder  | 2026-04-28 08:00:14,544 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:14,759 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=227.81ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:14,760 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=108.3ms | 566ms
+edhoc-initiator  | 2026-04-28 08:00:16,263 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:00:17,428 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:17,533 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:17,640 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:17,640 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.0ms)
+edhoc-responder  | 2026-04-28 08:00:17,654 [RESPONDER] Encapsulate | ct=768B | SS=477dcb3f7c961129…
+edhoc-responder  | 2026-04-28 08:00:17,654 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:17,884 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=244.01ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:17,886 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=107.0ms | 579ms
+edhoc-initiator  | 2026-04-28 08:00:19,389 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:00:20,562 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:20,668 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:20,769 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=108.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:20,769 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=108.2ms)
+edhoc-responder  | 2026-04-28 08:00:20,786 [RESPONDER] Encapsulate | ct=768B | SS=f90c4b7db32870f0…
+edhoc-responder  | 2026-04-28 08:00:20,787 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:21,007 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=237.90ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:21,009 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=108.2ms | 572ms
+edhoc-initiator  | 2026-04-28 08:00:22,512 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:00:23,721 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:23,831 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:23,939 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:23,939 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.5ms)
+edhoc-responder  | 2026-04-28 08:00:23,963 [RESPONDER] Encapsulate | ct=768B | SS=4f05c48e1027cb3d…
+edhoc-responder  | 2026-04-28 08:00:23,964 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:24,212 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=273.15ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:24,215 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=107.5ms | 626ms
+edhoc-initiator  | 2026-04-28 08:00:25,718 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:00:26,891 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:27,000 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:27,110 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=110.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:27,110 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=110.4ms)
+edhoc-responder  | 2026-04-28 08:00:27,127 [RESPONDER] Encapsulate | ct=768B | SS=86ffcaa25ae4cf84…
+edhoc-responder  | 2026-04-28 08:00:27,127 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:27,359 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=249.21ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:27,361 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=110.4ms | 593ms
+edhoc-initiator  | 2026-04-28 08:00:28,864 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:00:30,893 [SWEEP-P2] netem: loss=10% latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:33,897 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:33,898 [SWEEP-P2] Condition: loss=10%  latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:33,898 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:33,898 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:00:35,117 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:35,217 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:35,324 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=108.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:35,324 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=108.8ms)
+edhoc-responder  | 2026-04-28 08:00:35,339 [RESPONDER] Encapsulate | ct=768B | SS=4894d8a03e79c497…
+edhoc-responder  | 2026-04-28 08:00:35,339 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:35,566 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=242.55ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:35,569 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=108.8ms | 579ms
+edhoc-initiator  | 2026-04-28 08:00:37,072 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:00:38,236 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:38,342 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:38,447 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=106.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:38,447 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=106.3ms)
+edhoc-responder  | 2026-04-28 08:00:38,468 [RESPONDER] Encapsulate | ct=768B | SS=6f3e30907ca65786…
+edhoc-responder  | 2026-04-28 08:00:38,468 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:38,690 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=242.90ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:38,692 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=106.3ms | 582ms
+edhoc-initiator  | 2026-04-28 08:00:40,193 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:00:41,365 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:41,470 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:41,572 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=106.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:41,572 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=106.6ms)
+edhoc-responder  | 2026-04-28 08:00:41,589 [RESPONDER] Encapsulate | ct=768B | SS=91da35cccae1dd4e…
+edhoc-responder  | 2026-04-28 08:00:41,589 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:41,816 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=243.65ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:41,829 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=106.6ms | 580ms
+edhoc-initiator  | 2026-04-28 08:00:43,333 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:00:44,502 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:44,610 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:44,719 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=109.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:44,719 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=109.8ms)
+edhoc-responder  | 2026-04-28 08:00:44,733 [RESPONDER] Encapsulate | ct=768B | SS=67eedd20138aa795…
+edhoc-responder  | 2026-04-28 08:00:44,733 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:44,960 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=241.05ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:44,963 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=109.8ms | 577ms
+edhoc-initiator  | 2026-04-28 08:00:46,465 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:00:47,622 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:47,732 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:47,842 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=105.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:47,843 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=105.2ms)
+edhoc-responder  | 2026-04-28 08:00:47,860 [RESPONDER] Encapsulate | ct=768B | SS=11a1925deea863f6…
+edhoc-responder  | 2026-04-28 08:00:47,860 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:00:48,090 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=247.69ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:00:48,092 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=105.2ms | 587ms
+edhoc-initiator  | 2026-04-28 08:00:49,596 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:00:51,626 [SWEEP-P2] netem: loss=20% latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:54,630 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:54,631 [SWEEP-P2] Condition: loss=20%  latency=100ms
+edhoc-initiator  | 2026-04-28 08:00:54,631 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:00:54,631 [SWEEP-P2]   Run 1/5
+edhoc-initiator  | 2026-04-28 08:00:57,381 [SWEEP-P2] Retransmission, Message ID: 13031.
+edhoc-responder  | 2026-04-28 08:00:57,917 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:58,025 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:00:58,151 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=108.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:00:58,151 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=108.9ms)
+edhoc-responder  | 2026-04-28 08:00:58,193 [RESPONDER] Encapsulate | ct=768B | SS=03b17198e6aeaf9b…
+edhoc-responder  | 2026-04-28 08:00:58,193 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 08:01:01,130 [SWEEP-P2] Retransmission, Message ID: 13036.
+edhoc-initiator  | 2026-04-28 08:01:03,994 [SWEEP-P2] Retransmission, Message ID: 13037.
+edhoc-responder  | 2026-04-28 08:01:04,095 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=5944.48ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:04,098 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=108.9ms | 6303ms
+edhoc-initiator  | 2026-04-28 08:01:05,601 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 08:01:09,369 [SWEEP-P2] Retransmission, Message ID: 13042.
+edhoc-responder  | 2026-04-28 08:01:09,766 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:09,868 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:09,974 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=113.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:09,974 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=113.9ms)
+edhoc-responder  | 2026-04-28 08:01:10,005 [RESPONDER] Encapsulate | ct=768B | SS=355c636d7dc36e1e…
+edhoc-responder  | 2026-04-28 08:01:10,006 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:01:10,237 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=263.71ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:10,240 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=113.9ms | 599ms
+edhoc-initiator  | 2026-04-28 08:01:11,743 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:01:13,100 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:13,235 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:13,438 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=118.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:13,439 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=118.0ms)
+edhoc-responder  | 2026-04-28 08:01:13,548 [RESPONDER] Encapsulate | ct=768B | SS=78edc52dbfcebee5…
+edhoc-responder  | 2026-04-28 08:01:13,548 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:01:13,813 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=380.69ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:13,828 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=118.0ms | 963ms
+edhoc-initiator  | 2026-04-28 08:01:15,331 [SWEEP-P2]   Run 4/5
+edhoc-initiator  | 2026-04-28 08:01:18,917 [SWEEP-P2] Retransmission, Message ID: 13062.
+edhoc-responder  | 2026-04-28 08:01:19,251 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:19,353 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:19,465 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=104.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:19,465 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=104.4ms)
+edhoc-responder  | 2026-04-28 08:01:19,479 [RESPONDER] Encapsulate | ct=768B | SS=e28c7ef49a00d396…
+edhoc-responder  | 2026-04-28 08:01:19,480 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 08:01:22,375 [SWEEP-P2] Retransmission, Message ID: 13066.
+edhoc-responder  | 2026-04-28 08:01:22,598 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=3133.98ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:22,600 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=104.4ms | 3477ms
+edhoc-initiator  | 2026-04-28 08:01:24,103 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 08:01:26,859 [SWEEP-P2] Retransmission, Message ID: 13071.
+edhoc-initiator  | 2026-04-28 08:01:31,093 [SWEEP-P2] Retransmission, Message ID: 13071.
+edhoc-responder  | 2026-04-28 08:01:31,624 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:31,730 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:31,835 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=110.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:31,835 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=110.6ms)
+edhoc-responder  | 2026-04-28 08:01:31,851 [RESPONDER] Encapsulate | ct=768B | SS=17a36d0ee208799d…
+edhoc-responder  | 2026-04-28 08:01:31,851 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:01:32,073 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=237.88ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:32,075 [SWEEP-P2]     ✓ | ML-KEM-512 [MEDIUM] | probe_rtt=110.6ms | 572ms
+edhoc-initiator  | 2026-04-28 08:01:33,578 [SWEEP-P2]   → clean=3 degraded=2 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:01:35,608 [SWEEP-P2] netem: loss=30% latency=100ms
+edhoc-initiator  | 2026-04-28 08:01:38,613 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:01:38,613 [SWEEP-P2] Condition: loss=30%  latency=100ms
+edhoc-initiator  | 2026-04-28 08:01:38,613 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:01:38,613 [SWEEP-P2]   Run 1/5
+edhoc-initiator  | 2026-04-28 08:01:40,905 [SWEEP-P2] Retransmission, Message ID: 13078.
+edhoc-initiator  | 2026-04-28 08:01:45,486 [SWEEP-P2] Retransmission, Message ID: 13078.
+edhoc-responder  | 2026-04-28 08:01:46,639 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 08:01:48,863 [SWEEP-P2] Retransmission, Message ID: 13084.
+edhoc-responder  | 2026-04-28 08:01:48,965 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:49,068 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=108.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:49,068 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=108.4ms)
+edhoc-responder  | 2026-04-28 08:01:49,083 [RESPONDER] Encapsulate | ct=768B | SS=cf416c02cc1740a6…
+edhoc-responder  | 2026-04-28 08:01:49,084 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:01:49,315 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=247.38ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:49,319 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=108.4ms | 2798ms
+edhoc-initiator  | 2026-04-28 08:01:50,822 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 08:01:53,200 [SWEEP-P2] Retransmission, Message ID: 13089.
+edhoc-initiator  | 2026-04-28 08:01:56,217 [SWEEP-P2] Retransmission, Message ID: 13091.
+edhoc-responder  | 2026-04-28 08:01:56,760 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:56,870 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:01:56,973 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=110.1ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:01:56,973 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=110.1ms)
+edhoc-responder  | 2026-04-28 08:01:56,989 [RESPONDER] Encapsulate | ct=768B | SS=4b36b5a42917f4f9…
+edhoc-responder  | 2026-04-28 08:01:56,989 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 08:01:59,322 [SWEEP-P2] Retransmission, Message ID: 13096.
+edhoc-responder  | 2026-04-28 08:01:59,541 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=2568.48ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:01:59,543 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=110.1ms | 2904ms
+edhoc-initiator  | 2026-04-28 08:02:01,046 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 08:02:05,088 [SWEEP-P2] Retransmission, Message ID: 13103.
+edhoc-initiator  | 2026-04-28 08:02:10,959 [SWEEP-P2] Retransmission, Message ID: 13103.
+edhoc-initiator  | 2026-04-28 08:02:22,702 [SWEEP-P2] Retransmission, Message ID: 13103.
+edhoc-responder  | 2026-04-28 08:02:22,807 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:22,910 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:23,011 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=106.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:23,011 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=106.8ms)
+edhoc-responder  | 2026-04-28 08:02:23,024 [RESPONDER] Encapsulate | ct=768B | SS=f4f46ebb253b4f1d…
+edhoc-responder  | 2026-04-28 08:02:23,024 [RESPONDER] MSG2 | payload=1604B
+edhoc-responder  | 2026-04-28 08:02:23,244 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=232.83ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:23,246 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=106.8ms | 21113ms
+edhoc-initiator  | 2026-04-28 08:02:24,749 [SWEEP-P2]   Run 4/5
+edhoc-initiator  | 2026-04-28 08:02:27,911 [SWEEP-P2] Retransmission, Message ID: 13111.
+edhoc-responder  | 2026-04-28 08:02:28,449 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 08:02:31,447 [SWEEP-P2] Retransmission, Message ID: 13114.
+edhoc-responder  | 2026-04-28 08:02:31,550 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:31,653 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=107.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:31,654 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=107.9ms)
+edhoc-responder  | 2026-04-28 08:02:31,670 [RESPONDER] Encapsulate | ct=768B | SS=4a6459986c9e002e…
+edhoc-responder  | 2026-04-28 08:02:31,670 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 08:02:34,192 [SWEEP-P2] Retransmission, Message ID: 13117.
+edhoc-responder  | 2026-04-28 08:02:34,292 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=2639.30ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:34,295 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=107.9ms | 5972ms
+edhoc-initiator  | 2026-04-28 08:02:35,798 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:02:36,951 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:37,060 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:37,160 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=103.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:37,161 [RESPONDER] Selected: ML-KEM-512 [MEDIUM] (RTT=103.3ms)
+edhoc-responder  | 2026-04-28 08:02:37,179 [RESPONDER] Encapsulate | ct=768B | SS=585c22bc99f93f56…
+edhoc-responder  | 2026-04-28 08:02:37,179 [RESPONDER] MSG2 | payload=1604B
+edhoc-initiator  | 2026-04-28 08:02:39,972 [SWEEP-P2] Retransmission, Message ID: 13127.
+edhoc-responder  | 2026-04-28 08:02:40,071 [RESPONDER] MSG3 | KEM=ML-KEM-512 | condition=MEDIUM | handshake=2910.42ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:40,072 [SWEEP-P2]     ~ DEGRADED | ML-KEM-512 [MEDIUM] | probe_rtt=103.3ms | 3245ms
+edhoc-initiator  | 2026-04-28 08:02:41,576 [SWEEP-P2]   → clean=0 degraded=5 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:02:43,608 [SWEEP-P2] netem: loss=0% latency=150ms
+edhoc-initiator  | 2026-04-28 08:02:46,611 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:02:46,611 [SWEEP-P2] Condition: loss=0%  latency=150ms
+edhoc-initiator  | 2026-04-28 08:02:46,611 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:02:46,611 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:02:48,086 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:48,237 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:48,388 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=159.1ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:48,388 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=159.1ms)
+edhoc-responder  | 2026-04-28 08:02:48,390 [RESPONDER] Encapsulate | ct=65B | SS=93923eaddd4ddea8…
+edhoc-responder  | 2026-04-28 08:02:48,391 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:02:48,552 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=164.28ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:48,554 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=159.1ms | 643ms
+edhoc-initiator  | 2026-04-28 08:02:50,057 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:02:51,536 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:51,687 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:51,840 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=158.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:51,840 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=158.4ms)
+edhoc-responder  | 2026-04-28 08:02:51,841 [RESPONDER] Encapsulate | ct=65B | SS=ba88d72955876cbb…
+edhoc-responder  | 2026-04-28 08:02:51,842 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:02:51,999 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=158.33ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:52,001 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=158.4ms | 642ms
+edhoc-initiator  | 2026-04-28 08:02:53,504 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:02:54,998 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:55,151 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:55,301 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=160.4ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:55,302 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=160.4ms)
+edhoc-responder  | 2026-04-28 08:02:55,303 [RESPONDER] Encapsulate | ct=65B | SS=7f216176cd48b632…
+edhoc-responder  | 2026-04-28 08:02:55,303 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:02:55,464 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=162.89ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:55,467 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=160.4ms | 643ms
+edhoc-initiator  | 2026-04-28 08:02:56,970 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:02:58,436 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:58,592 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:02:58,750 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=156.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:02:58,750 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=156.2ms)
+edhoc-responder  | 2026-04-28 08:02:58,751 [RESPONDER] Encapsulate | ct=65B | SS=a2ec837cea85f34d…
+edhoc-responder  | 2026-04-28 08:02:58,751 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:02:58,915 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=165.07ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:02:58,918 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=156.2ms | 655ms
+edhoc-initiator  | 2026-04-28 08:03:00,421 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:03:01,905 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:02,064 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:02,221 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=155.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:02,221 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=155.8ms)
+edhoc-responder  | 2026-04-28 08:03:02,222 [RESPONDER] Encapsulate | ct=65B | SS=ec99aca2e5069cfb…
+edhoc-responder  | 2026-04-28 08:03:02,222 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:02,380 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=159.44ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:02,384 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=155.8ms | 652ms
+edhoc-initiator  | 2026-04-28 08:03:03,887 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:03:05,924 [SWEEP-P2] netem: loss=5% latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:08,930 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:08,931 [SWEEP-P2] Condition: loss=5%  latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:08,932 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:08,933 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:03:10,406 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:10,565 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:10,718 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=158.0ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:10,718 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=158.0ms)
+edhoc-responder  | 2026-04-28 08:03:10,720 [RESPONDER] Encapsulate | ct=65B | SS=c2c4cc3fc09b4e25…
+edhoc-responder  | 2026-04-28 08:03:10,721 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:10,875 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=157.07ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:10,877 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=158.0ms | 643ms
+edhoc-initiator  | 2026-04-28 08:03:12,380 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:03:13,848 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:14,006 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:14,164 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=157.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:14,164 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=157.3ms)
+edhoc-responder  | 2026-04-28 08:03:14,166 [RESPONDER] Encapsulate | ct=65B | SS=3b641db21e94aa08…
+edhoc-responder  | 2026-04-28 08:03:14,166 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:14,322 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=158.25ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:14,324 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=157.3ms | 643ms
+edhoc-initiator  | 2026-04-28 08:03:15,826 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:03:17,302 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:17,457 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:17,612 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=157.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:17,612 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=157.8ms)
+edhoc-responder  | 2026-04-28 08:03:17,613 [RESPONDER] Encapsulate | ct=65B | SS=fd5fb5c2375b67cb…
+edhoc-responder  | 2026-04-28 08:03:17,613 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:17,775 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=162.78ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:17,777 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=157.8ms | 652ms
+edhoc-initiator  | 2026-04-28 08:03:19,281 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:03:20,768 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:20,944 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:21,106 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=159.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:21,106 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=159.9ms)
+edhoc-responder  | 2026-04-28 08:03:21,107 [RESPONDER] Encapsulate | ct=65B | SS=995ca78d1e56a15b…
+edhoc-responder  | 2026-04-28 08:03:21,108 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:21,265 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=158.35ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:21,268 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=159.9ms | 669ms
+edhoc-initiator  | 2026-04-28 08:03:22,771 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:03:24,244 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:24,400 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:24,558 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=157.6ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:24,558 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=157.6ms)
+edhoc-responder  | 2026-04-28 08:03:24,559 [RESPONDER] Encapsulate | ct=65B | SS=9a25ab22d551a5f1…
+edhoc-responder  | 2026-04-28 08:03:24,559 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:24,715 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=157.42ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:24,717 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=157.6ms | 651ms
+edhoc-initiator  | 2026-04-28 08:03:26,219 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:03:28,251 [SWEEP-P2] netem: loss=10% latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:31,256 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:31,256 [SWEEP-P2] Condition: loss=10%  latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:31,256 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:31,256 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:03:32,714 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:32,869 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:33,020 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=155.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:33,020 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=155.2ms)
+edhoc-responder  | 2026-04-28 08:03:33,021 [RESPONDER] Encapsulate | ct=65B | SS=d98927e119115eaa…
+edhoc-responder  | 2026-04-28 08:03:33,021 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:33,180 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=160.17ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:33,183 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=155.2ms | 639ms
+edhoc-initiator  | 2026-04-28 08:03:34,687 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:03:36,160 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:36,317 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:36,472 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=159.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:36,472 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=159.9ms)
+edhoc-responder  | 2026-04-28 08:03:36,473 [RESPONDER] Encapsulate | ct=65B | SS=341eb10869011474…
+edhoc-responder  | 2026-04-28 08:03:36,474 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:36,632 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=159.81ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:36,634 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=159.9ms | 647ms
+edhoc-initiator  | 2026-04-28 08:03:38,136 [SWEEP-P2]   Run 3/5
+edhoc-responder  | 2026-04-28 08:03:39,602 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:39,760 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:39,915 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=156.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:39,916 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=156.5ms)
+edhoc-responder  | 2026-04-28 08:03:39,916 [RESPONDER] Encapsulate | ct=65B | SS=0129612bd6b876fe…
+edhoc-responder  | 2026-04-28 08:03:39,917 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:40,078 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=162.83ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:40,081 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=156.5ms | 654ms
+edhoc-initiator  | 2026-04-28 08:03:41,584 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:03:43,044 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:43,202 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:43,359 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=154.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:43,359 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=154.3ms)
+edhoc-responder  | 2026-04-28 08:03:43,360 [RESPONDER] Encapsulate | ct=65B | SS=b7390c242e86b6e8…
+edhoc-responder  | 2026-04-28 08:03:43,360 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:43,512 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=152.92ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:43,514 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=154.3ms | 644ms
+edhoc-initiator  | 2026-04-28 08:03:45,017 [SWEEP-P2]   Run 5/5
+edhoc-initiator  | 2026-04-28 08:03:48,197 [SWEEP-P2] Retransmission, Message ID: 13257.
+edhoc-responder  | 2026-04-28 08:03:48,884 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:49,034 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:49,190 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=159.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:49,191 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=159.2ms)
+edhoc-responder  | 2026-04-28 08:03:49,191 [RESPONDER] Encapsulate | ct=65B | SS=4bdf056aba505df0…
+edhoc-responder  | 2026-04-28 08:03:49,192 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:49,349 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=158.54ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:49,351 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=159.2ms | 639ms
+edhoc-initiator  | 2026-04-28 08:03:50,854 [SWEEP-P2]   → clean=5 degraded=0 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:03:52,885 [SWEEP-P2] netem: loss=20% latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:55,889 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:55,889 [SWEEP-P2] Condition: loss=20%  latency=150ms
+edhoc-initiator  | 2026-04-28 08:03:55,889 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:03:55,889 [SWEEP-P2]   Run 1/5
+edhoc-responder  | 2026-04-28 08:03:57,361 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:57,514 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:03:57,671 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=158.2ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:03:57,671 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=158.2ms)
+edhoc-responder  | 2026-04-28 08:03:57,672 [RESPONDER] Encapsulate | ct=65B | SS=4f5b109500de34db…
+edhoc-responder  | 2026-04-28 08:03:57,672 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:03:57,831 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=160.74ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:03:57,833 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=158.2ms | 646ms
+edhoc-initiator  | 2026-04-28 08:03:59,336 [SWEEP-P2]   Run 2/5
+edhoc-responder  | 2026-04-28 08:04:00,806 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:00,960 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:01,114 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=159.3ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:01,114 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=159.3ms)
+edhoc-responder  | 2026-04-28 08:04:01,116 [RESPONDER] Encapsulate | ct=65B | SS=6873183804bf2573…
+edhoc-responder  | 2026-04-28 08:04:01,117 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:04:01,276 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=161.60ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:01,277 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=159.3ms | 641ms
+edhoc-initiator  | 2026-04-28 08:04:02,781 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 08:04:06,107 [SWEEP-P2] Retransmission, Message ID: 13284.
+edhoc-responder  | 2026-04-28 08:04:06,799 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:06,950 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:07,101 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=156.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:07,101 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=156.8ms)
+edhoc-responder  | 2026-04-28 08:04:07,103 [RESPONDER] Encapsulate | ct=65B | SS=953c8213d3daf8e9…
+edhoc-responder  | 2026-04-28 08:04:07,104 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:04:07,259 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=157.94ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:07,261 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=156.8ms | 639ms
+edhoc-initiator  | 2026-04-28 08:04:08,764 [SWEEP-P2]   Run 4/5
+edhoc-responder  | 2026-04-28 08:04:10,279 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:10,437 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:10,592 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=157.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:10,592 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=157.9ms)
+edhoc-responder  | 2026-04-28 08:04:10,593 [RESPONDER] Encapsulate | ct=65B | SS=71107496663d1147…
+edhoc-responder  | 2026-04-28 08:04:10,593 [RESPONDER] MSG2 | payload=161B
+edhoc-initiator  | 2026-04-28 08:04:12,909 [SWEEP-P2] Retransmission, Message ID: 13298.
+edhoc-responder  | 2026-04-28 08:04:13,060 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=2468.08ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:13,062 [SWEEP-P2]     ~ DEGRADED | ECDH-P256 [POOR] | probe_rtt=157.9ms | 3007ms
+edhoc-initiator  | 2026-04-28 08:04:14,567 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:04:16,042 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:16,193 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:16,351 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=156.7ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:16,351 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=156.7ms)
+edhoc-responder  | 2026-04-28 08:04:16,352 [RESPONDER] Encapsulate | ct=65B | SS=9c08f1fbcc8fe2b2…
+edhoc-responder  | 2026-04-28 08:04:16,353 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:04:16,509 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=157.90ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:16,511 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=156.7ms | 650ms
+edhoc-initiator  | 2026-04-28 08:04:18,014 [SWEEP-P2]   → clean=4 degraded=1 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:04:20,045 [SWEEP-P2] netem: loss=30% latency=150ms
+edhoc-initiator  | 2026-04-28 08:04:23,049 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:04:23,050 [SWEEP-P2] Condition: loss=30%  latency=150ms
+edhoc-initiator  | 2026-04-28 08:04:23,050 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:04:23,050 [SWEEP-P2]   Run 1/5
+edhoc-initiator  | 2026-04-28 08:04:26,157 [SWEEP-P2] Retransmission, Message ID: 13309.
+edhoc-initiator  | 2026-04-28 08:04:29,332 [SWEEP-P2] Retransmission, Message ID: 13311.
+edhoc-initiator  | 2026-04-28 08:04:34,666 [SWEEP-P2] Retransmission, Message ID: 13311.
+edhoc-initiator  | 2026-04-28 08:04:45,324 [SWEEP-P2] Retransmission, Message ID: 13311.
+edhoc-initiator  | 2026-04-28 08:04:45,475 [SWEEP-P2] Response <aiocoap.Message at 0x7f6e569935d0: ACK 2.05 Content (MID 13311, token 797f) remote <UDP6EndpointAddress 172.18.0.2 (locally 172.18.0.3%eth0)>> could not be matched to any request
+edhoc-initiator  | 2026-04-28 08:04:45,477 [SWEEP-P2] Ignoring unknown response (which is not a unicast CON)
+edhoc-responder  | 2026-04-28 08:04:45,907 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:46,064 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:46,221 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=1577.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:46,221 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=1577.8ms)
+edhoc-responder  | 2026-04-28 08:04:46,222 [RESPONDER] Encapsulate | ct=65B | SS=edf5ac401fff4a72…
+edhoc-responder  | 2026-04-28 08:04:46,223 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:04:46,382 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=161.53ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:46,386 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=1577.8ms | 655ms
+edhoc-initiator  | 2026-04-28 08:04:47,888 [SWEEP-P2]   Run 2/5
+edhoc-initiator  | 2026-04-28 08:04:51,302 [SWEEP-P2] Retransmission, Message ID: 13319.
+edhoc-responder  | 2026-04-28 08:04:52,245 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:52,403 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:52,554 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=158.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:52,554 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=158.5ms)
+edhoc-responder  | 2026-04-28 08:04:52,555 [RESPONDER] Encapsulate | ct=65B | SS=1cda39a6812d10a1…
+edhoc-responder  | 2026-04-28 08:04:52,556 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:04:52,715 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=161.06ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:04:52,718 [SWEEP-P2]     ✓ | ECDH-P256 [POOR] | probe_rtt=158.5ms | 648ms
+edhoc-initiator  | 2026-04-28 08:04:54,221 [SWEEP-P2]   Run 3/5
+edhoc-initiator  | 2026-04-28 08:04:57,081 [SWEEP-P2] Retransmission, Message ID: 13327.
+edhoc-responder  | 2026-04-28 08:04:58,276 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:58,433 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:04:58,586 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=156.5ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:04:58,586 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=156.5ms)
+edhoc-responder  | 2026-04-28 08:04:58,587 [RESPONDER] Encapsulate | ct=65B | SS=a9b34133ad1d8be1…
+edhoc-responder  | 2026-04-28 08:04:58,587 [RESPONDER] MSG2 | payload=161B
+edhoc-initiator  | 2026-04-28 08:05:01,256 [SWEEP-P2] Retransmission, Message ID: 13334.
+edhoc-responder  | 2026-04-28 08:05:01,406 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=2820.65ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:05:01,408 [SWEEP-P2]     ~ DEGRADED | ECDH-P256 [POOR] | probe_rtt=156.5ms | 3302ms
+edhoc-initiator  | 2026-04-28 08:05:02,910 [SWEEP-P2]   Run 4/5
+edhoc-initiator  | 2026-04-28 08:05:05,991 [SWEEP-P2] Retransmission, Message ID: 13336.
+edhoc-initiator  | 2026-04-28 08:05:09,485 [SWEEP-P2] Retransmission, Message ID: 13340.
+edhoc-responder  | 2026-04-28 08:05:09,643 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:05:09,801 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-initiator  | 2026-04-28 08:05:12,316 [SWEEP-P2] Retransmission, Message ID: 13342.
+edhoc-responder  | 2026-04-28 08:05:12,468 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=158.9ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:05:12,469 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=158.9ms)
+edhoc-responder  | 2026-04-28 08:05:12,470 [RESPONDER] Encapsulate | ct=65B | SS=9ff9f3cbc623155b…
+edhoc-responder  | 2026-04-28 08:05:12,470 [RESPONDER] MSG2 | payload=161B
+edhoc-responder  | 2026-04-28 08:05:12,622 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=154.06ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:05:12,624 [SWEEP-P2]     ~ DEGRADED | ECDH-P256 [POOR] | probe_rtt=158.9ms | 5604ms
+edhoc-initiator  | 2026-04-28 08:05:14,128 [SWEEP-P2]   Run 5/5
+edhoc-responder  | 2026-04-28 08:05:15,593 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=0, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:05:15,744 [RESPONDER] Render request raised a renderable error (ContinueException(BlockwiseTuple(block_number=1, more=True, size_exponent=6))), responding accordingly.
+edhoc-responder  | 2026-04-28 08:05:15,897 [RESPONDER] MSG1 | supported=['ML-KEM-768', 'ML-KEM-512', 'ECDH-P256'] | payload=2094B BLOCKWISE | RTT=157.8ms [initiator-probe]
+edhoc-responder  | 2026-04-28 08:05:15,898 [RESPONDER] Selected: ECDH-P256 [POOR] (RTT=157.8ms)
+edhoc-responder  | 2026-04-28 08:05:15,899 [RESPONDER] Encapsulate | ct=65B | SS=e86bb913b19fe81d…
+edhoc-responder  | 2026-04-28 08:05:15,899 [RESPONDER] MSG2 | payload=161B
+edhoc-initiator  | 2026-04-28 08:05:18,111 [SWEEP-P2] Retransmission, Message ID: 13352.
+edhoc-responder  | 2026-04-28 08:05:18,260 [RESPONDER] MSG3 | KEM=ECDH-P256 | condition=POOR | handshake=2362.80ms | sessions_remaining=0
+edhoc-initiator  | 2026-04-28 08:05:18,263 [SWEEP-P2]     ~ DEGRADED | ECDH-P256 [POOR] | probe_rtt=157.8ms | 2844ms
+edhoc-initiator  | 2026-04-28 08:05:19,766 [SWEEP-P2]   → clean=2 degraded=3 failed=0 / 5
+edhoc-initiator  | 2026-04-28 08:05:21,802 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:05:21,802 [SWEEP-P2] SWEEP COMPLETE — KEM selection distribution
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]  Loss   Lat   GOOD/768  MED/512  POOR/P256  Degraded  Failed
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2] ------------------------------------------------------------
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    0%   10ms          5        0          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    5%   10ms          5        0          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   10%   10ms          5        0          0         1       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   20%   10ms          5        0          0         4       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   30%   10ms          5        0          0         4       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    0%   50ms          0        5          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    5%   50ms          0        5          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   10%   50ms          0        5          0         1       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   20%   50ms          0        5          0         1       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   30%   50ms          0        4          1         4       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    0%  100ms          0        5          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    5%  100ms          0        5          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   10%  100ms          0        5          0         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   20%  100ms          0        5          0         2       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]   30%  100ms          0        5          0         5       0
+edhoc-initiator  | 2026-04-28 08:05:21,803 [SWEEP-P2]    0%  150ms          0        0          5         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2]    5%  150ms          0        0          5         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2]   10%  150ms          0        0          5         0       0
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2]   20%  150ms          0        0          5         1       0
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2]   30%  150ms          0        0          5         3       0
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2] ============================================================
+edhoc-initiator  | 2026-04-28 08:05:21,804 [SWEEP-P2] Results → /app/results/sweep_phase2.csv
+
+edhoc-initiator exited with code 0

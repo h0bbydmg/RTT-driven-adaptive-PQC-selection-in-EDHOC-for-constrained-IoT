@@ -1,0 +1,6 @@
+aiocoap==0.4.7
+cbor2==5.6.4
+cryptography==42.0.8
+pycose==1.1.0
+kyber-py
+pycryptodome
